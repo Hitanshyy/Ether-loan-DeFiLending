@@ -1,49 +1,45 @@
+# 💸 EtherLoan – A Minimalist DeFi Lending Protocol
 
-**Use your preferred IDE**
+EtherLoan is a lightweight decentralized lending protocol inspired by platforms like **Aave** and **Compound**. Built for educational purposes, this dApp showcases how users can **lend**, **borrow**, and **view real-time lending metrics** via a clean, modern interface.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🎯 Features
 
-Follow these steps:
+- 🔐 **Wallet Connection** – Seamless integration with MetaMask to connect and manage your Ethereum wallet.
+- 💰 **Asset Deposits** – Simulate deposits of ETH, DAI, and USDC.
+- 🧮 **Borrow Against Collateral** – Users can borrow assets with a live health factor display.
+- 📊 **Interest Rate Visualization** – See dynamic lending and borrowing rates.
+- 📋 **Account Overview** – Track your deposits, borrowings, and collateral usage in one place.
+- ⚡ **Responsive UI** – Designed for desktop and mobile users with interactive elements and smooth animations.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🔧 Tech Stack
 
-# Step 3: Install the necessary dependencies.
-npm i
+- **Frontend**: React, Ethers.js
+- **Smart Contracts**: Solidity (for core lending logic)
+- **Blockchain**: Ethereum (simulation via local or testnet)
+- **Wallet Integration**: MetaMask
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
+## 🛡️ Disclaimer
+This is an educational prototype. Do not use in production or with real funds. Always audit smart contracts before deploying on mainnet.
 
-**Edit a file directly in GitHub**
+## 🚀 Getting Started
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Prerequisites
+- Node.js ≥ 16
+- MetaMask Wallet
+- Hardhat or Remix for contract deployment
 
-**Use GitHub Codespaces**
+### Installation
+```bash
+git clone https://github.com/Hitanshyy/Ether-loan-DeFiLending.git
+cd Ether-loan-DeFiLending
+npm install
+npm start
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-
+## 🤝 Contributing
+Pull requests and suggestions are welcome! Feel free to fork the project and enhance it.
 
