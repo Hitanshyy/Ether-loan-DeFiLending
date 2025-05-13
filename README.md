@@ -39,7 +39,7 @@ git clone https://github.com/Hitanshyy/Ether-loan-DeFiLending.git
 cd Ether-loan-DeFiLending
 npm install
 npm start
-
+```
 ## 🤝 Contributing
 Pull requests and suggestions are welcome! Feel free to fork the project and enhance it.
 
